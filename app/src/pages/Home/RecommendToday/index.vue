@@ -4,21 +4,21 @@
       <ul class="recommend">
         <li class="clock">
           <div class="time">
-            <img src="./images/home/clock.png" />
+            <img src="../images/home/clock.png" />
             <h3>今日推荐</h3>
           </div>
         </li>
         <li class="banner">
-          <img src="./images/home/today01.png" />
+          <img src="../images/home/today01.png" />
         </li>
         <li class="banner">
-          <img src="./images/home/today02.png" />
+          <img src="../images/home/today02.png" />
         </li>
         <li class="banner">
-          <img src="./images/home/today03.png" />
+          <img src="../images/home/today03.png" />
         </li>
         <li class="banner">
-          <img src="./images/home/today04.png" />
+          <img src="../images/home/today04.png" />
         </li>
       </ul>
     </div>

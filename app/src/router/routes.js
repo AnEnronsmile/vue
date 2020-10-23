@@ -11,7 +11,7 @@ export default [
   { path: "/", component: Home },
   { path: "/login", component: Login, meta: { isShowFooter: true } },
   { path: "/register", component: Register, meta: { isShowFooter: true } },
-  { path: "/search", component: Search },
+  { path: "/search/:keyword?", component: Search },
   // 重定向
   { path: "/", redirect: "/" },
 ];
