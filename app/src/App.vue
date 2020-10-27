@@ -17,8 +17,7 @@ export default {
     Footer,
   },
   async mounted() {
-    const result = await reqGetBaseCategoryList();
-    console.log(result);
+    this.$store.dispatch("reqBaseCategoryList");
   },
 };
 </script>

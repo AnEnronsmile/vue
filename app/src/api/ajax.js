@@ -24,7 +24,7 @@ ajax.interceptors.response.use(
   (error) => {
     Nprogress.done();
     alert("错误信息" + error.message);
-    return Promise.reject(() => {});
+    return Promise.reject(error);
   }
 );
 export default ajax;
