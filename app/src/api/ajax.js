@@ -8,7 +8,7 @@ import "nprogress/nprogress.css";
 // 设置请求的根路径和超时
 const ajax = axios.create({
   baseURL: "api", //根路径
-  timeOut: 20000, //超时时间
+  // timeOut: 20000, //超时时间
 });
 // 请求拦截器
 ajax.interceptors.request.use((config) => {

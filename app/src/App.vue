@@ -9,7 +9,7 @@
 <script>
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { reqGetBaseCategoryList } from "./api/index";
+import { reqBaseCategoryList } from "./api/index";
 export default {
   name: "App",
   components: {
@@ -18,6 +18,8 @@ export default {
   },
   async mounted() {
     this.$store.dispatch("reqBaseCategoryList");
+    const baseCategoryList = (state) => state.home.baseCategoryList;
+    console.log(baseCategoryList[1]);
   },
 };
 </script>
